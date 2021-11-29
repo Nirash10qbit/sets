@@ -77,7 +77,7 @@ $('#TR1TD2').text('('+($('#TR0TD1').val()+'' + $('#LTR1TD0').val())+')('+$('#TR0
 $('#TR2TD1').text('('+($('#TR2TD0').val()+')('+$('#TR0TD1').val()+'' + $('#LTR0TD1').val()+')'));
 $('#TR2TD2').text('('+$('#TR0TD2').val()+')'+'('+$('#TR2TD0').val()+')');
 
-$('#Ans1').text('('+($('#TR1TD0').val()+'' + $('#LTR1TD0').val())+' + '+$('#TR2TD0').val()+') ('+($('#TR0TD1').val()+'' + $('#LTR1TD0').val())+' + '+$('#TR0TD2').val()+')');
+$('#Ans1').text('('+($('#TR0TD1').val()+'' + $('#LTR1TD0').val())+' + '+$('#TR0TD2').val()+') ('+($('#TR1TD0').val()+'' + $('#LTR1TD0').val())+' + '+$('#TR2TD0').val()+') ');
 $('#Ans2').text('('+($('#TR0TD1').val()+'' + $('#LTR1TD0').val())+')('+($('#TR1TD0').val()+'' + $('#LTR1TD0').val())+') + ('+($('#TR0TD1').val()+'' + $('#LTR1TD0').val())+')('+$('#TR2TD0').val()+') + ('+($('#TR1TD0').val()+'' + $('#LTR1TD0').val())+')('+$('#TR0TD2').val()+') + ('+($('#TR2TD0').val())+')('+$('#TR0TD2').val()+')');
 $('#Ans3').text('');
 $('#Ans3').append((parseFloat($('#TR1TD0').val())*parseFloat($('#TR0TD1').val())))
