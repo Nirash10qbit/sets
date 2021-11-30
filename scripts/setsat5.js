@@ -69,14 +69,14 @@ $(document).ready(function () {
             $('#dragtarget6').css('visibility', 'visible');
             $('.example-table').css('background-image', 'url(../Images/SetB_N.png)');
             $("#imgImage2").css("visibility","hidden");
-            new Audio("../audio/tze.m4a").play();
+        //    new Audio("../audio/tze.m4a").play();
         }
        
         else{
           //  $("#imgImage").attr("src","../Images/aa1.png");
         }
         if(number == 100){
-        new Audio("../audio/te.m4a").play();
+     //   new Audio("../audio/te.m4a").play();
         number = 0;
         }
     });

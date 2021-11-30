@@ -69,7 +69,7 @@ $(document).ready(function () {
             $('#dragtarget6').css('visibility', 'visible');
             $('.example-table').css('background-image', 'url(../Images/SetA.png)');
             $("#imgImage2").css("visibility","hidden");
-            new Audio("../audio/AUBEX.m4a").play();
+          //  new Audio("../audio/AUBEX.m4a").play();
         }
        
         else{

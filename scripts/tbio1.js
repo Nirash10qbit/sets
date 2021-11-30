@@ -1,4 +1,4 @@
-var audio = new Audio("../audio/eee.m4a");
+var audio = new Audio("../audio/ttt.m4a");
 var number =100;
 $(document).ready(function () {
     twoByTwo();
@@ -12,7 +12,7 @@ $(document).ready(function () {
     $('#Ans4').hide();
     $('#imgImage2').css('visibility', 'hidden');
 
-    $("#imgImage").attr("src","../Images/em1.png");
+    $("#imgImage").attr("src","../Images/tm1.png");
 
     $('#divAnswer').hide();
     
@@ -34,14 +34,14 @@ $(document).ready(function () {
         $('#Ans2').show();
             $('#dragtarget1').css('visibility', 'visible');
             $('#dragtarget2').css('visibility', 'visible');
-            new Audio("../audio/ea1.m4a").play();
+            new Audio("../audio/ta1.m4a").play();
             number=4;
     }
     else if(number == 4){
         $('#Ans3').show();
        
     $("#imgImage2").css("background-image","../Images/next1.png");
-    new Audio("../audio/ea2.m4a").play();
+    new Audio("../audio/ta2.m4a").play();
         number=6;
     }
     else if(number == 6){

@@ -34,14 +34,14 @@ $(document).ready(function () {
         $('#Ans2').show();
             $('#dragtarget1').css('visibility', 'visible');
             $('#dragtarget2').css('visibility', 'visible');
-            new Audio("../audio/ea1.m4a").play();
+            new Audio("../audio/ee1.m4a").play();
             number=4;
     }
     else if(number == 4){
         $('#Ans3').show();
        
     $("#imgImage2").css("background-image","../Images/next1.png");
-    new Audio("../audio/ea2.m4a").play();
+    new Audio("../audio/ee2.m4a").play();
         number=6;
     }
     else if(number == 6){
@@ -194,9 +194,9 @@ function paly(){
 }
 
 function pageLoadValues(){
-    $('#TR0TD1').val(2);
-    $('#TR0TD2').val(3);
-    $('#TR1TD0').val(1);
-    $('#TR2TD0').val(2);
+    $('#TR0TD1').val(1);
+    $('#TR0TD2').val(2);
+    $('#TR1TD0').val(2);
+    $('#TR2TD0').val(1);
     formula();
 }

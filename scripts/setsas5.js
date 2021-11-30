@@ -1,5 +1,5 @@
 var selectedSection = 'A';
-var audio = new Audio("../audio/seta.m4a");
+var audio = new Audio("../audio/sets0.m4a");
 var number =100;
 
 $(document).ready(function () {
@@ -30,7 +30,7 @@ $(document).ready(function () {
             $("#imgImage").attr("src","../Images/s1.png");
             $('#dragtarget1').css('visibility', 'visible');
             $('.example-table').css('background-image', 'url(../Images/SetAUB_N.png)');
-            new Audio("../audio/one.m4a").play();
+            new Audio("../audio/sets1.m4a").play();
 
             number=1;
         }
@@ -39,7 +39,7 @@ $(document).ready(function () {
             $('#dragtarget1').css('visibility', 'visible');
             $('#dragtarget2').css('visibility', 'visible');
             $('.example-table').css('background-image', 'url(../Images/SetAA.png)');
-            new Audio("../audio/two.m4a").play();
+            new Audio("../audio/sets2.m4a").play();
             number=4;
         }
         else if(number == 4){
@@ -48,7 +48,7 @@ $(document).ready(function () {
             $('#dragtarget2').css('visibility', 'visible');
             $('#dragtarget4').css('visibility', 'visible');
             $('.example-table').css('background-image', 'url(../Images/SetA^B.png)');
-            new Audio("../audio/four.m4a").play();
+            new Audio("../audio/sets4.m4a").play();
             number=6;
         }
         else if(number == 6){
@@ -58,7 +58,7 @@ $(document).ready(function () {
             $('#dragtarget4').css('visibility', 'visible');
             $('#dragtarget6').css('visibility', 'visible');
             $('.example-table').css('background-image', 'url(../Images/SetBB.png)');
-            new Audio("../audio/six.m4a").play();
+            new Audio("../audio/sets6.m4a").play();
             number=8;
         }
         else if(number == 8){
@@ -69,14 +69,14 @@ $(document).ready(function () {
             $('#dragtarget6').css('visibility', 'visible');
             $('.example-table').css('background-image', 'url(../Images/SetB_N.png)');
             $("#imgImage2").css("visibility","hidden");
-            new Audio("../audio/AUBEX.m4a").play();
+         //   new Audio("../audio/AUBEX.m4a").play();
         }
        
         else{
           //  $("#imgImage").attr("src","../Images/aa1.png");
         }
         if(number == 100){
-        new Audio("../audio/AUB.m4a").play();
+            new Audio("../audio/setssas.m4a").play();
         number = 0;
         }
     });
